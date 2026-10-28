@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-  background-color: #fd6569;
+  background-color: rgb(10,20,30);
   padding: 10px;
 }
 
@@ -131,4 +131,21 @@ body {
 
 .popup-box textarea:focus {
   outline: none;
+}
+
+body {
+  background:
+    radial-gradient(
+      circle at 20% 20%,
+      rgba(124, 58, 237, 0.5),
+      transparent 45%
+    ),
+    radial-gradient(
+      circle at 80% 30%,
+      rgba(219, 39, 119, 0.4),
+      transparent 45%
+    ),
+    #0f0b1e;
+  min-height: 100vh;
+  color: #f5f3ff;
 }
